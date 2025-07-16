@@ -63,16 +63,17 @@
 
         }
         #seven{
-            width: 100%;
-            height: 1000px;
-             display: flex;
+         width: 100%;
+        height: 1000px;
+        display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         background-size: cover;
         background-position: center;
+        flex-wrap: wrap;
        
-            background-image: url('https://images.ctfassets.net/y312l405ebbq/5SJ5wbzMHCaEPPiyvMgmfi/6e49b6816d9532322fd13eaf9ec0ac96/MicrosoftTeams-image__1_.png?w=684&h=400&q=100&fm=webp');
+ background-image: url('https://images.ctfassets.net/y312l405ebbq/5SJ5wbzMHCaEPPiyvMgmfi/6e49b6816d9532322fd13eaf9ec0ac96/MicrosoftTeams-image__1_.png?w=684&h=400&q=100&fm=webp');
         }
 
         #eight{
@@ -100,12 +101,61 @@
 
        
         }
+         #resume{
+            width: 280px;
+            height: "45 px";
+           font-size: 22px;
+           background-color:rgba(10, 10, 10, 0.804) ;
+           color: white;
+           border: none;
+           border-radius: 10px;
+           cursor: pointer;
+        }
+
+
+
+
         #ten{
+            width: 100%;
+            height: 100px;
         display: flex;
         align-items:center;
         justify-content: center;
         font-size: 22px;
+        background-color: 1 solid black;
         }
+        #eleven{
+            width: 100%;
+            height: 200px;
+            background-image: url('data:image/jpeg;base64,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');
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #sixthx{
+           display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; 
+        }
+        
+        footer{
+            height: 200px;
+            background-color: black;
+            display: flex;
+            align-items:center ;
+            justify-content: space-around;
+        }
+
+       
+
+
+
+
+
 </style>
 <body >
     
@@ -147,8 +197,8 @@
                 <h1>Types of Coffee</h1>
             </div>
             <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                <img src="images_2r.png" width="200px">
-                <h1>Pastry</h1>
+                <img src="photo3.jpg" width="200px">
+                <h1>Bean Varities</h1>
             </div>
             <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk8k4NypyU1eWb4QN5EXHwdHhShtxhPLd-X0ZIhXGwIj0JeVvt" alt="" width="200px">
@@ -174,16 +224,18 @@
                     <h1>Our Philosophy</h1>
                     <p style="width: 300px; text-align: justify;font-size: 22px;">At Bean Buzz Roastery, we believe that coffee is not just a drink, but an experience. That's why we strive to create bold and inviting flavours that tantalise your taste buds. We believe that great coffee should be savoured, not rushed.</p>
                 </div>
-                <div>
+                <div><br>
                     <img src="https://img1.wsimg.com/isteam/ip/c423608c-102a-4169-beb7-e352cc918bb7/Coffee%20Sample.jpg/:/cr=t:0%25,l:25%25,w:50.01%25,h:100%25/rs=w:730,h:973,cg:true" alt="" width="300px" height="300px">
                     <h1>Our Innovation</h1>
                     <p style="width: 300px; text-align: justify;font-size: 22px;">We're always experimenting and pushing the boundaries of what's possible with coffee. From new roasting methods to exciting flavour combinations, we're constantly exploring and innovating. We believe that there's always something new to discover in the world of coffee.</p>
                 </div>
-                <div>
+                <div><br>
                     <img src="https://img1.wsimg.com/isteam/ip/c423608c-102a-4169-beb7-e352cc918bb7/Coffee%20Bag.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:730,cg:true" alt="" width="300px"height="300px">
                     <h1>Our Sustainability</h1>
                     <p style="width: 300px; text-align: justify;font-size: 22px;">We are committed to minimizing our impact on the environment. That's why we use only eco-friendly materials and practices in our roastery and select our beans from sustainable and ethical sources. We reduce our carbon footprint by also working with local farmers and suppliers.</p>
                 </div>
+
+                
                 
             </div>
         </div>
@@ -197,7 +249,54 @@
             </div>
         </div><br><br><br>
 
-            <div id="six">
+        <div id="sixthx">
+            <h1 style="font-size: 50px;">Sweet Moments Hub</h1>
+            <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/title-separator.png" alt="">
+            <p style="font-size: 22px;">
+                You’re the cream to my coffee and the smile to my morning.
+            </p>
+        </div>
+
+        <div style="display: flex; align-items: center; justify-content: center; column-gap: 12px; row-gap: 12px; flex-wrap: wrap;">
+            <img src="img1.jpg" alt="" width="300">
+            <img src="img18.jpg" alt="" width="300">
+            <img src="img3.jpg" alt="" width="300">
+            <img src="img5.jpg" alt="" width="300">
+            <img src="img6.jpg" alt="" width="300">
+            <img src="img7.jpg" alt="" width="300">
+            <img src="img8.jpg" alt="" width="300">
+            <img src="img10.jpg" alt="" width="300">
+        </div>
+
+        <br><br><br>
+
+
+
+        <div id="nine">
+            <h1 >Thank You</h1>
+            </div><br><br>
+
+            <div style="display: flex; align-items: center; justify-content: center;">
+            <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/clients-img-5-hover.png" alt=""  width="190">
+
+            <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/clients-img-6-hover.png" alt=""  width="190">
+
+            <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/clients-img-1.png" alt=""  width="190">
+
+            <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/clients-img-2-hover.png" alt=""  width="190">
+
+            <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/clients-img-4-hover.png" alt=""  width="190">
+        </div><br><br>
+        
+     <div id="eleven">
+            <a href="Kunwar Vijay_Resume.pdf" download>
+                <button id="resume">Download My Resume</button>
+            </a>
+            
+        </div><br><br>
+        
+
+                    <div id="six">
         <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
                 <img src="map.png" alt="" width="40px">
                 <h1>Address</h1>
@@ -226,16 +325,34 @@
             </div>
         </div><br><br><br>
 
-        <div id="nine">
-            <h1 >Thank You</h1>
-            
+        <footer>
+            <div>
+                <p style="font-size: 22px; color: white;">Built with ❤ By Kunwar Vijay Saw (KVS)</p>
+            </div>
 
-        </div>
-        <div id="ten">
-           <div>© 2025 KVS Cofee Cafe | by:Kunwar Vijay Saw</h1></div>
+            <div>
+                <a style="color: white;" href="#">Home</a>
+                <a style="color: white;" href="#">About</a> 
+                <a style="color: white;" href="#">Contact</a>
+                <a style="color: white;" href="#">Shop</a>
+            </div>
 
-            <p></p>
-        </div>
+            <div>
+                <a href="https://www.facebook.com" target="_blank">
+                     <img src="FB.png" width="40">
+                </a>
+
+                <a href="https://x.com/" target="_blank">
+                    <img src="twitter-.png" width="40">
+                </a>
+               
+                
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="instagram-.png" width="40">
+                </a>
+            </div>
+        </footer>
+
         
 
 </body>
